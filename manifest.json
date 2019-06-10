@@ -1,0 +1,21 @@
+{
+    "id": "915e25b3",
+    "name": "Hello World sample plugin",
+    "version": "0.0.1",
+    "description": "Description of your plugin.",
+    "summary": "Summary of your plugin",
+    "languages": ["en"],
+    "author": "Your Name",
+    "helpUrl": "https://twitter.com/glennwester",
+    "host": {
+      "app": "XD",
+      "minVersion": "13.0"
+    },
+    "uiEntryPoints": [
+      {
+        "type": "menu",
+        "label": "Create Rectangle",
+        "commandId": "createRectangle"
+      }
+    ]
+  }
