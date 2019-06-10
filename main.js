@@ -13,6 +13,8 @@ function rectangleHandlerFunction(selection) {
   selection.insertionParent.addChild(newElement);
   // [5]
   newElement.moveInParentCoordinates(100, 100);
+
+
 }
 
 // [6]
